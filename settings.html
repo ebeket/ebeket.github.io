@@ -29,19 +29,25 @@
 
     <div id="particles-js"></div>
 
-    <div class="wrapper">
-      <h1 class="typewriter">All the Gams</h1>
+    <div style="margin-top: 30px;" class="wrapper">
+        <h1 class="large">Settings</h1>
     </div>
 
-    <div class="wrapper">
-      <p id="message"></p>
-    </div>
+    <div style="margin-top: 20px;" class="container">
+        <h2>Tab Cloaker:</h2>
 
-    <div class="wrapper">
-      <button onclick="document.location='gams.html'" id="gamsButton">Go to Gams</button> 
+        <label for="titleInput">Tab Title</label>
+        <input type="text" class="inputfield" placeholder="Enter tab title" />
+
+        <label for="iconSelect">Tab Icon:</label>
+        <select id="iconSelect">
+            <option value="https://cdn.classlink.com/production/launchpad/resources/images/favicon/favicon-16x16.png">Classlink</option>
+            <option value="https://www.google.com/favicon.ico">OneNote</option>
+        </select>
     </div>
 
     <script src="js/index.js"></script>
     <script src="js/particles.js"></script>
+    <script src="js/settings.js"></script>
   </body>
 </html>
